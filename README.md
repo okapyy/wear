@@ -1,24 +1,28 @@
-# README
+# wear
+## 使用技術
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails 5.2.4.2  
+Haml / Scss  
+devise  
 
-Things you may want to cover:
+## 概要
 
-* Ruby version
 
-* System dependencies
+## 本番環境
 
-* Configuration
+https
+テストアカウント  
+メールアドレス :  
+パスワード : 
 
-* Database creation
+## 制作背景
 
-* Database initialization
 
-* How to run the test suite
+## DEMO
 
-* Services (job queues, cache servers, search engines, etc.)
+## 工夫したポイント
 
-* Deployment instructions
 
-* ...
+
+## 課題や今後実装したい機能
+
