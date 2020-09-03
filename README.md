@@ -70,7 +70,7 @@ https
 |age|string||
 |hair|string||
 |public|string|null: false|
-|user_id|references|foreign_key, null: false|
+|user_id|references|foreign_key: true, null: false|
 #### Association
 - belongs_to :user
 - has_many :coodinate_images
