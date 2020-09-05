@@ -8,7 +8,7 @@ class CreateCoodinates < ActiveRecord::Migration[5.2]
       t.string :age
       t.string :hair
       t.string :public , null: false
-      t.references :user , null: false , foreign_key: true
+      t.integer :user_id , null: false , foreign_key: true
       t.timestamps
     end
   end

@@ -33,6 +33,7 @@ https
 |nickname|string|null: false|
 |mail|string|null: false|
 #### Association
+- has_many :coodinates
 - has_one :person
 - has_many :external_sites
 
