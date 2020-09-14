@@ -1,9 +1,17 @@
 .index-body
   .index-body__header
     .head
-      .head__serch
+      .head__search
+        %input.head__search__input{placeholder: "コーディネートやユーザーを探す"}
+        %i.fas.fa-search
       .head__logo
         %p WEAR
       .head__user
+        = link_to "#", class: "head__user__login" do
+          = icon('fas', 'user-circle', class: "head__user__login--icon")
+          ログイン
+        |
+        = link_to "#", class: "head__user__signup" do
+          新規会員登録
   .index-body__nav
   .index-body__main

@@ -1,0 +1,10 @@
+@mixin link($color) {
+  text-decoration: none;
+  color: $color;
+}
+
+@mixin hover-opc($opc) {
+  &:hover {
+    opacity: $opc;
+  }
+}
