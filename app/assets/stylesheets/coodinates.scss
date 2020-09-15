@@ -4,6 +4,7 @@
     box-shadow: 0 0 8px gray;
     display: flex;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.97);
     .head {
       height: 40px;
       width: 68%;
@@ -58,6 +59,31 @@
           margin-left: 10px;
           @include link(#666666);
           @include hover-opc(0.7);
+        }
+      }
+    }
+  }
+  &__nav {
+    height: 45px;
+    width: 100%;
+    border-bottom: 1px solid #BBB;
+    .navber {
+      height: 100%;
+      width: 52%;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      &__tab {
+        line-height: 45px;
+        padding: 0 23px;
+        @include link(#BBB);
+        &:hover {
+          border-bottom: 3px solid black;
+        }
+        &--active {
+          line-height: 47px;
+          padding: 0 30px;
+          border-bottom: 3px solid black;
         }
       }
     }
