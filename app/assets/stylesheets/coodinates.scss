@@ -88,4 +88,16 @@
       }
     }
   }
+  &__main {
+    &__tab {
+      height: 90px;
+      display: flex;
+      align-items: center;
+      background-color: red;
+      .switch {
+        width: 200px;
+        margin: 0 auto;
+      }
+    }
+  }
 }
