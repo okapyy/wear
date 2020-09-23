@@ -5,7 +5,7 @@
         %input.head__search__input{placeholder: "コーディネートやユーザーを探す"}
         %i.fas.fa-search
       .head__logo
-        %p WEAR
+        = link_to "WEAR", "#", class: "head__logo__link"
       .head__user
         = link_to "#", class: "head__user__login" do
           = icon('fas', 'user-circle', class: "head__user__login--icon")

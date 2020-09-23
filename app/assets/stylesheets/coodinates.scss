@@ -37,6 +37,9 @@
         font-weight: 600;
         letter-spacing: 7px;
         margin-right: 40px;
+        &__link {
+          @include link(black)
+        }
       }
       &__user {
         color: #BBB;
