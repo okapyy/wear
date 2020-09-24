@@ -92,14 +92,33 @@
     }
   }
   &__main {
+    background-color: menu;
     &__tab {
-      height: 90px;
+      height: 80px;
       display: flex;
       align-items: center;
-      background-color: red;
       .switch {
-        width: 200px;
         margin: 0 auto;
+        &__active {
+          display: inline;
+          padding: 10px 37px;
+          border: 1px solid #ddd;
+          font-size: 13px;
+          background-color: #333333;
+          color: #fff;
+          border-radius: 7px 0 0 7px;
+        }
+        &__btn {
+          padding: 10px 30px;
+          border: 1px solid #ddd;
+          border-radius: 0 7px 7px 0;
+          font-size: 13px;
+          background-color: #fff;
+          @include link(rgba(170,170,170,0.9));
+          &:hover {
+            background-color: menu;
+          }
+        }
       }
     }
   }
