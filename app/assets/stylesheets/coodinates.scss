@@ -186,6 +186,16 @@
               @include hover-opc(0.8);
             }
           }
+          .text {
+            margin-top: 15px;
+            &__one {
+              font-size: 13px;
+              @include link(#333333);
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
         }
       }
     }
