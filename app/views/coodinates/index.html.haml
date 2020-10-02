@@ -184,5 +184,17 @@
           %h1 #ボリューム袖
           .post
             = link_to "#" do
-              = image_tag "/huku.jpg"
-            .user
+              = image_tag src="/huku.jpg", class: "post__image"
+          .lower
+            .lower__user
+              = link_to "#", class: "lower__user__icon" do
+                .lower__user__icon--image
+              .lower__user__text
+                .lower__user__text__name
+                  おかぴ
+                .lower__user__text__height
+                  150cm
+            .lower__follow
+              = link_to "#", class: "follow-btn" do
+                %i.fas.fa-user-plus.fa-0.5x.fa-fw
+                %p フォローする

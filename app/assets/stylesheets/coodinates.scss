@@ -125,6 +125,7 @@
       width: 68%;
       margin: 0 auto;
       padding-top: 10px;
+      display: flex;
       .left {
         width: 195px;
         &__conteinar {
@@ -195,6 +196,25 @@
                 text-decoration: underline;
               }
             }
+          }
+        }
+      }
+      .right {
+        margin-left: 20px;
+        &__conteinar {
+          h1 {
+            font-size: 19px;
+            color: #333333;
+          }
+          .post {
+            margin-top: 16px;
+            &__image {
+              width: 246px;
+              height: 328px;
+            }
+          }
+          .lower {
+            display: flex;
           }
         }
       }
