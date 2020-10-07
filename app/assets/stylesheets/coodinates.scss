@@ -214,10 +214,21 @@
             justify-content: space-between;
             .content {
               border: 1px solid #ddd;
+              position: relative;
+              &__rank {
+                @include ranking(#ffe400);
+                &--second {
+                  @include ranking(#dcdcdc);
+                }
+                &--three {
+                  @include ranking(#9a5b00);
+                }
+              }
               &__post {
                 &__image {
                   width: 246px;
                   height: 328px;
+                  @include hover-opc(0.7);
                 }
               }
               &__lower {
