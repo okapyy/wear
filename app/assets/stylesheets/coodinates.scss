@@ -1,75 +1,9 @@
 .index-body {
-  &__header {
-    height: 55px;
-    box-shadow: 0 0 8px gray;
-    display: flex;
-    align-items: center;
-    background-color: rgba(255, 255, 255, 0.97);
-    .head {
-      height: 40px;
-      width: 68%;
-      display: flex;
-      margin: 0 auto;
-      align-items: center;
-      justify-content: space-between;
-      &__search {
-        position: relative;
-        &__input {
-          height: 32px;
-          width: 220px;
-          border: 1px solid #DDD;
-          border-radius: 3px;
-          background-color: #f5f5f5;
-          padding-left: 35px;
-          &::placeholder {
-            color: #BBB;
-          }
-        }
-        i {
-          position: absolute;
-          top: 26%;
-          left: 10px;
-          color: #BBB;
-        }
-      }
-      &__logo {
-        font-size: 28px;
-        font-weight: 600;
-        letter-spacing: 7px;
-        margin-right: 40px;
-        &__link {
-          @include link(black)
-        }
-      }
-      &__user {
-        color: #BBB;
-        font-size: 14px;
-        display: flex;
-        align-items: center;
-        &__login {
-          margin: 0 10px 0;
-          display: flex;
-          align-items: center;
-          @include link(#666666);
-          @include hover-opc(0.7);
-          &--icon {
-            line-height: 40px;
-            font-size: 29px;
-            margin-right: 8px;
-          }
-        }
-        &__signup {
-          margin-left: 10px;
-          @include link(#666666);
-          @include hover-opc(0.7);
-        }
-      }
-    }
-  }
   &__nav {
     height: 45px;
     width: 100%;
     border-bottom: 1px solid #ddd;
+    padding-top: 55px;
     .navber {
       height: 100%;
       width: 52%;
